@@ -9,16 +9,16 @@ export default defineConfig<'webpack5'>(async (merge, { command, mode }) => {
   const baseConfig: UserConfigExport<'webpack5'> = {
     projectName: 'taro-react-template',
     date: '2024-9-20',
-    designWidth: 375,
+    designWidth: 750,
     deviceRatio: {
       640: 2.34 / 2,
       750: 1,
       375: 2,
       828: 1.81 / 2
     },
-    sass: {
-      data: '$hd: 1;'
-    },
+    // sass: {
+    //   data: '$hd: 1;'
+    // },
     sourceRoot: 'src',
     outputRoot: 'dist',
     plugins: [['@tarojs/plugin-mini-ci', CIPluginOpt], '@tarojs/plugin-html', '@tarojs/plugin-react-devtools'],

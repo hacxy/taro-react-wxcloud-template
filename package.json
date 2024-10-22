@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm -F taro-react-template run dev",
-    "dev:open": "pnpm -F taro-react-template run dev --open --projectPath=../"
+    "dev:open": "pnpm -F taro-react-template run dev:open",
+    "build": "pnpm -F taro-react-template run build"
   },
   "keywords": [],
   "author": "",
