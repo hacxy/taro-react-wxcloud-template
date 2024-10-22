@@ -1,0 +1,16 @@
+{
+  "name": "taro-react-cloud-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -F taro-react-template run dev",
+    "dev:open": "pnpm -F taro-react-template run dev --open --projectPath=../"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wx-server-sdk": "^3.0.1"
+  }
+}
