@@ -4,7 +4,7 @@ import path from 'path';
 import { fs } from '@tarojs/helper';
 
 const SECRET_FILE_NAME = 'wechat.secret.key';
-const privateKeyIsExist = fs.existsSync(path.resolve(__dirname, `../${SECRET_FILE_NAME}}`));
+const privateKeyIsExist = fs.existsSync(path.resolve(__dirname, `../${SECRET_FILE_NAME}`));
 
 // 判断是否存在, 没有则创建一个 secret 文件
 if (!privateKeyIsExist) {
