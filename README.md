@@ -14,9 +14,9 @@ _Taro 官方提供的云开发模板严重越少依赖,导致项目无法正常�
 
 - 默认支持 CI/CD
 
-  - --open 打开开发者工具，类似于网页开发中自动打开谷歌浏览器
-    --preview 上传代码作为开发版并生成预览二维码
-    --upload 上传代码作为体验版
+  - --open 打开开发者工具，类似于网页开发中自动打开谷歌浏览器  
+    --preview 上传代码作为开发版并生成预览二维码  
+    --upload 上传代码作为体验版  
     详见: [微信小程序-ci-配置](https://docs.taro.zone/docs/plugin-mini-ci#%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-ci-%E9%85%8D%E7%BD%AE)
 
 - 默认集成 devtools 调试工具, 启动 dev 命令后自动打开 react devtools 调试窗口
